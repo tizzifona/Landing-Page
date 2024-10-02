@@ -10,8 +10,6 @@ header {
   color: white;
   text-align: center;
   padding: 20px;
-  -webkit-box-shadow: 0px 9px 8px 0px rgba(34, 60, 80, 0.28);
-  -moz-box-shadow: 0px 9px 8px 0px rgba(34, 60, 80, 0.28);
   box-shadow: 0px 9px 8px 0px rgba(34, 60, 80, 0.28);
 }
 
@@ -45,7 +43,6 @@ header {
 .header-contacts {
   display: flex;
   list-style-type: none;
-  margin-right: 20px;
   margin-left: auto;
 }
 
@@ -87,13 +84,46 @@ header {
     margin: 0;
   }
 
+  .logo-img {
+    width: 40px;
+    height: 40px;
+  }
+
   .contacts-link {
     font-size: 14px;
+  }
+}
 
-    .logo-img {
-      width: 40px;
-      height: 40px;
-    }
+@media (max-width: 480px) {
+  header {
+    padding: 15px;
+  }
+
+  .main-logo {
+    font-size: 18px;
+    margin-left: 0;
+  }
+
+  .logo-img {
+    width: 35px;
+    height: 35px;
+    margin-right: 0;
+  }
+
+  .header-contacts {
+    padding: 0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-contacts li {
+    margin-bottom: 10px;
+  }
+
+  .contacts-img {
+    width: 18px;
+    height: 18px;
   }
 }
 
