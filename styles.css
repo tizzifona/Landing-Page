@@ -145,34 +145,70 @@ main {
   min-height: 300px;
 }
 
-footer {
-  background-color: #333;
-  color: white;
+.main-header {
   text-align: center;
-  padding: 10px;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
 }
-
 .team-section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 20px;
+}
+
+.team-member:first-child {
+  margin-right: 70px;
 }
 
 .team-member {
   margin: 10px;
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 2px solid #ddd;
   border-radius: 5px;
-  width: 200px;
+  width: 300px;
   text-align: center;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.team-member:hover {
+  transform: scale(1.05);
+  border-color: #f8d46e;
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(34, 60, 80, 0.17);
+  -moz-box-shadow: 0px 0px 10px 3px rgba(34, 60, 80, 0.17);
+  box-shadow: 0px 0px 10px 3px rgba(34, 60, 80, 0.17);
 }
 
 .team-member img {
-  width: 100%;
-  height: auto;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
+  object-fit: cover;
+}
+
+.member-contacts {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.member-link:first-child {
+  margin-right: 20px;
+}
+.member-link img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.member-link img:hover {
+  transform: scale(1.15);
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
 }
