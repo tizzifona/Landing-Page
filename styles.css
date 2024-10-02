@@ -220,3 +220,7 @@ footer {
   width: 100%;
   bottom: 0;
 }
+
+.footer-text{
+  font-size: small;
+}
