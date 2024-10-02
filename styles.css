@@ -18,7 +18,7 @@ header {
 .header-container {
   display: flex;
   align-items: center;
-  /* justify-content: space-around; */
+  flex-wrap: wrap;
 }
 
 .main-logo {
@@ -71,6 +71,30 @@ header {
   width: 20px;
   height: 20px;
   margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .main-logo {
+    margin-bottom: 15px;
+  }
+
+  .header-contacts {
+    margin: 0;
+  }
+
+  .contacts-link {
+    font-size: 14px;
+
+    .logo-img {
+      width: 40px;
+      height: 40px;
+    }
+  }
 }
 
 main {
