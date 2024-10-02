@@ -38,6 +38,19 @@ header {
   width: 50px;
   height: 50px;
   margin-right: 10px;
+  animation: pulse 3s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .header-contacts {
@@ -107,7 +120,7 @@ header {
   .logo-img {
     width: 35px;
     height: 35px;
-    margin-right: 0;
+    margin-right: 5px;
   }
 
   .header-contacts {
