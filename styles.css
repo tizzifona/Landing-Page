@@ -7,7 +7,6 @@ body {
 
 header {
   background-color: #333;
-  width: 100%;
   color: white;
   text-align: center;
   padding: 20px;
@@ -219,8 +218,6 @@ footer {
   color: white;
   text-align: center;
   padding: 10px;
-  width: 100%;
-  bottom: 0;
 }
 
 .footer-text {
