@@ -147,13 +147,15 @@ main {
 
 .main-header {
   text-align: center;
+  font-size: 26px;
+  margin-top: 10px;
 }
 
 .team-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .team-member {
@@ -163,7 +165,7 @@ main {
   padding: 20px;
   border: 2px solid #ddd;
   border-radius: 5px;
-  width:45%;
+  width: 30%;
   text-align: center;
   transition: transform 0.3s ease, border-color 0.3s ease;
 }
@@ -183,7 +185,7 @@ main {
 
 .member-photo {
   width: 100%;
-  max-width: 300px;
+  max-width: 200px;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
   object-fit: cover;
@@ -220,6 +222,15 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 14px;
+}
+
+.description-title h4 {
+  margin: 0;
+}
+
+.description-text {
+  margin: 0;
 }
 
 @media (max-width: 768px) {
