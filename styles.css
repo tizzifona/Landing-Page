@@ -153,10 +153,12 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .team-member {
+  overflow: hidden;
+  word-wrap: break-word;
   margin: 10px;
   padding: 20px;
   border: 2px solid #ddd;
@@ -169,10 +171,17 @@ main {
 .team-member:hover {
   transform: scale(1.05);
   border-color: #f8d46e;
-  box-shadow: 0px 0px 10px 3px rgba(34, 60, 80, 0.17);
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(34, 60, 80, 0.39);
+  -moz-box-shadow: 0px 0px 10px 3px rgba(34, 60, 80, 0.39);
+  box-shadow: 0px 0px 10px 3px rgba(34, 60, 80, 0.39);
+  .member-photo {
+    -webkit-box-shadow: 0px 0px 10px 3px rgba(34, 60, 80, 0.39);
+    -moz-box-shadow: 0px 0px 10px 3px rgba(34, 60, 80, 0.39);
+    box-shadow: 0px 0px 10px 3px rgba(34, 60, 80, 0.39);
+  }
 }
 
-.team-member img {
+.member-photo {
   width: 100%;
   max-width: 300px;
   aspect-ratio: 1 / 1;
@@ -198,7 +207,19 @@ main {
 }
 
 .member-link img:hover {
-  transform: scale(1.15);
+  transform: scale(1.25);
+}
+
+.description-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.description-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -217,6 +238,7 @@ footer {
   background-color: #333;
   color: white;
   text-align: center;
+  margin-top: 20px;
   padding: 10px;
   box-shadow: 0px 0px 8px 9px rgba(34, 60, 80, 0.28);
 }
