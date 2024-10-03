@@ -1,6 +1,6 @@
-# Landing Page
+# Landing Page CodeDreamers
 
-![Project Logo](https://raw.githubusercontent.com/tizzifona/Landing-Page/main/path-to-logo.png)
+<img src="https://raw.githubusercontent.com/tizzifona/Landing-Page/main/images/logo.png" alt="Logo" width="30px">
 
 ## 📖 About the Project
 
