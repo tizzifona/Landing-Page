@@ -1,6 +1,6 @@
 # Landing Page
 
-![Project Logo](https://raw.githubusercontent.com/tizzifona/Landing-Page/main/path-to-logo.png)
+<img src="https://raw.githubusercontent.com/tizzifona/Landing-Page/main/images/logo.png" title="logo" alt="logo" width='100px' height='100px' />
 
 ## 📖 About the Project
 
@@ -21,15 +21,13 @@ Check out the live demo [here](https://tizzifona.github.io/Landing-Page/index.ht
 
 The project is built using the following technologies:
 
-- **HTML5** 📝
-- **CSS3** 🎨
-- **Git** 🔧 and **GitHub** 🐱 (for version control)
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" title="HTML5" alt="HTML5" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" title="CSS3" alt="CSS3" /> <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" title="Git" alt="Git" /> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" title="GitHub" alt="GitHub" />
 
 
 ## 👥 Authors
 
-- **Olena Myroshnykova** — [GitHub Profile](https://github.com/OlenaMyroshnykova)
-- **Tizzifona** — [GitHub Profile](https://github.com/tizzifona)
+- **Olena Myroshnykova** — [GitHub Profile](https://github.com/OlenaMyroshnykova) <a href='https://www.linkedin.com/in/OlenaMyroshnykova/'><img src="https://i.postimg.cc/3RLmssnH/linkedin-3.png" alt="linkedin icon" width="30" height="30"></a>
+- **Tizzifona** — [GitHub Profile](https://github.com/tizzifona) <a href='https://www.linkedin.com/in/nadiia-alaieva/'><img src="https://i.postimg.cc/3RLmssnH/linkedin-3.png" alt="linkedin icon" width="30" height="30"></a>
 
 
 ## 📝 Acknowledgements
