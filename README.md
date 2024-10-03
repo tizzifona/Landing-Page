@@ -15,7 +15,6 @@ Check out the live demo [here](https://tizzifona.github.io/Landing-Page/index.ht
 - Responsive layout for different screen sizes
 - Clean, modular HTML and CSS code
 - Interactive elements for better user experience
-- SEO-friendly structure
 
 ## 🛠️ Tech Stack
 
