@@ -1,6 +1,6 @@
 # Landing Page CodeDreamers
 
-<img src="https://raw.githubusercontent.com/tizzifona/Landing-Page/main/images/logo.png" title="logo" alt="logo" width='100px' height='100px' />
+<img src="https://i.postimg.cc/cJWR4rT0/logo.png" title="logo" alt="logo" width='100px' height='100px' />
 
 ## 📖 About the Project
 
